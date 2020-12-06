@@ -1,13 +1,9 @@
 # 3dsmax_shelves
 A custom script shelves for 3ds max.
 
+![image](https://imgur.com/gallery/A6s6T2Q)
 
-
-```
-<tab name>/
-    scirpt/
-        tool.json
-```
+**NOTE: Only tested in 3dsmax 20202**
 
 # installing
 - copy `startup/max_shelves.ms` to `<3dsmax install root>/Script/Startup`
