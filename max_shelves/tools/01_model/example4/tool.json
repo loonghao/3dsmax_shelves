@@ -1,0 +1,5 @@
+{
+  "name": "toola",
+  "main": "my_tool.py",
+  "icon": "film.png"
+}
