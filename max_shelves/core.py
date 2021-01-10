@@ -4,14 +4,13 @@ import sys
 from functools import partial
 
 # Import third-party modules
-import MaxPlus
 from PySide2 import QtCore
 from PySide2 import QtGui
 from PySide2 import QtWidgets
 from pymxs import runtime as rt
 
 # Import local modules
-maxscirpt_path = rt.GetDir(rt.Name("scripts"))
+maxscirpt_path = rt.GetDir(rt.Name("userScripts"))
 if maxscirpt_path not in sys.path:
     sys.path.append(maxscirpt_path)
 
@@ -78,8 +77,13 @@ def script_plane(items):
     return widget
 
 
+def get_main_widget():
+    """Get 3dsmax main window."""
+    return QtWidgets.QWidget.find(rt.windows.getMAXHWND())
+
+
 def main():
-    main_window = MaxPlus.GetQMaxMainWindow()
+    main_window = get_main_widget()
     layout = get_layout(main_window)
     paths = get_script_search_paths()
     tools = resolve_paths(paths)
