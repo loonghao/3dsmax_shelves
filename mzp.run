@@ -1,5 +1,5 @@
 name "3dsmaxShelves 0.2.0"
-version 1
+version 0
 
 description "A custom script shelves for 3ds max."
 copy "startup\max_shelves.ms" to "$maxData\scripts\startup"

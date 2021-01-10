@@ -9,11 +9,12 @@ from PySide2 import QtGui
 from PySide2 import QtWidgets
 from pymxs import runtime as rt
 
-# Import local modules
+# Ensure we can import this libs.
 maxscirpt_path = rt.GetDir(rt.Name("userScripts"))
 if maxscirpt_path not in sys.path:
     sys.path.append(maxscirpt_path)
 
+# Import local modules
 from max_shelves.paths import get_script_search_paths
 from max_shelves.paths import resolve_paths
 from max_shelves.paths import resolve_tools
