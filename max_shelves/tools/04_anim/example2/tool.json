@@ -1,5 +1,5 @@
 {
-  "name": "toola",
+  "icon": "android.png",
   "main": "main.ms",
-  "icon": "android.png"
+  "name": "toola"
 }

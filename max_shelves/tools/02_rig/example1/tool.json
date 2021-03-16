@@ -1,5 +1,5 @@
 {
-  "name": "toola",
+  "icon": "tag-label.png",
   "main": "main.ms",
-  "icon": "tag-label.png"
+  "name": "toola"
 }

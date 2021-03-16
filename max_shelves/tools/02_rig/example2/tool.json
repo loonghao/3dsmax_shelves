@@ -1,5 +1,5 @@
 {
-  "name": "toola",
+  "icon": "monitor.png",
   "main": "main.ms",
-  "icon": "monitor.png"
+  "name": "toola"
 }
